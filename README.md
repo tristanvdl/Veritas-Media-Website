@@ -1,2 +1,2 @@
-# Yukon-website
-Website for our company
+# Veritas-website
+Website for our fictional company
