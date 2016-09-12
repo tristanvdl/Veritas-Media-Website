@@ -1,1 +1,12 @@
+@import url("helpers/_variables.scss");
+@import url("helpers/_mixins.scss");
 
+@import url("base/_base.scss");
+@import url("base/_fonts.scss");
+@import url("base/_reset.scss");
+
+@import url("components/_title.scss");
+@import url("components/menu.scss");
+
+@import url("pages/_portfilio.scss");
+@import url("pages/header.scss");
