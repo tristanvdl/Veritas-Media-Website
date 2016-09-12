@@ -1,12 +1,9 @@
-@import url("helpers/_variables.scss");
-@import url("helpers/_mixins.scss");
-
-@import url("base/_base.scss");
-@import url("base/_fonts.scss");
-@import url("base/_reset.scss");
-
-@import url("components/_title.scss");
-@import url("components/menu.scss");
-
-@import url("pages/_portfilio.scss");
-@import url("pages/header.scss");
+@import "scss/helpers/_mixins.scss";
+@import "scss/helpers/_variables.scss";
+@import "scss/base/_reset.scss";
+@import "scss/base/_base.scss";
+@import "scss/base/_fonts.scss";
+@import "scss/pages/_portfolio.scss";
+@import "scss/pages/_header.scss";
+@import "scss/components/_title.scss";
+@import "scss/components/_menu.scss"
