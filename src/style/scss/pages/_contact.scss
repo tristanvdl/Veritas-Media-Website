@@ -1,3 +1,24 @@
-.icontable {
-  padding: 15px;
+.infoline {
+  // width: 250px;
+}
+
+
+.infolines {
+  margin: 0 auto;
+  width: 250px;
+}
+
+@media screen and (min-width: 990px) {
+    .infoline {
+      width: 300px;
+      margin: 0 auto;
+    }
+}
+
+.infolines tr td {
+  padding: 3px;
+}
+
+.gm-style {
+  border-radius: 10px !important;
 }
