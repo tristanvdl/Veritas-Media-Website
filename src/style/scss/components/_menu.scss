@@ -1,49 +1,8 @@
-/* without this, the 100% page height won't work. */
-html, body {
-  height:100%;
-}
-
-/* <section> tag selector*/
-#menu {
+.navbar {
+  margin-bottom: 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
   width: 100%;
-  height: $menuheight;
-  background-color: white;
-  opacity: 0.5;
-  }
-
-  .ontop {
-    z-index: 10;
-    .logo {
-      max-height: $menuheight;
-      width: auto;
-      margin-left: 45%;
-    }
-    .navul {
-      position: fixed;
-      top: $menuheight * 0.175;
-      right: 5%;
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      font-size: 2em;
-      margin-top: 1.5%;
-      height: 1em;
-    }
-      li {
-        display: inline;
-        margin-left: 15px;
-        margin-right: 15px;
-      }
-      a {
-        text-decoration: none;
-        color:black;
-      }
-
-
-    }
-
-    .ontop , #menu {
-      position: fixed;
-      top: 0px;
-      left: 0px;
-    }
+  color: black;
+}

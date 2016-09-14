@@ -1,9 +1,15 @@
+/* without this, the 100% page height won't work. */
+html, body {
+  height:100%;
+}
 /* header div selector */
 #header {
   height:100%;
   background-image: url("../images/headerbg.jpeg");
   background-size:cover;
   text-align: center;
+  display: table;
+  width: 100%;
 
 
   .title{
@@ -13,9 +19,11 @@
     font-size: 1.5em;
   }
   .headertext {
-    display: inline-block;
-    margin-top:19%;
+    // display: inline-block;
+    // margin-top:19%;
     color: white;
+    display: table-cell;
+    vertical-align: middle;
   }
 
 }
