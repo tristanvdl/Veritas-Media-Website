@@ -8,49 +8,43 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika:400,600">
     <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/app.css">
 <body>
 
+    <!-- start menu -->
+    <div class="ontop opbg"></div>
+    <nav class="navbar navbar-default nobg">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand hoverpointer" id="logolink"><img src="images/logo.png" class="logo" id="headerimg"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right menu">
+            <li class="hoverpointer hoverdesu" id="portfoliolink"><a>Portfolio</a></li>
+            <li class="hoverpointer" id="aboutlink"><a>Over ons</a></li>
+            <li class="hoverpointer" id="whatwedolink"><a>Wat wij doen</a></li>
+            <li class="hoverpointer" id="contactlink"><a>Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- end menu -->
 
-<!-- start menu -->
-<div class="ontop opbg"></div>
-<nav class="navbar navbar-default nobg">
-  <div class="container-fluid">
-
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand hoverpointer" id="logolink"><img src="images/logo.png" class="logo"></a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right" >
-        <li class="hoverpointer" id="portfoliolink"><a>Portfolio</a></li>
-        <li class="hoverpointer" id="aboutlink"><a>Wie zijn wij?</a></li>
-        <li class="hoverpointer" id="whatwedolink"><a>Wat doen wij?</a></li>
-        <li class="hoverpointer" id="contactlink"><a>Contact</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-<!-- end menu -->
-
-<!-- start header -->
-  <section id="header">
-    <div class="headertext">
-      <h1 class="title">VERITAS MEDIA</h1>
-      <p class="subtitle">Websites & Apps</p>
-    </div>
-  </section>
-<!-- end header -->
-
-
+    <!-- start header -->
+      <section id="header">
+        <div class="headertext">
+          <h1 class="title">VERITAS MEDIA</h1>
+          <h2 class="subtitle">Websites & Apps</h2>
+        </div>
+      </section>
+    <!-- end header -->
 
     <!-- PORTFOLIO -->
     <section class="section scrolltrigger" id="portfolio">
@@ -66,31 +60,49 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <div class="image_work">
+                        <div class="work_info">
+                            <h2>Duursamen</h2>
+                        </div>
                         <img src="images/palceholder.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="image_work">
+                        <div class="work_info">
+                            <h2>Duursamen</h2>
+                        </div>
                         <img src="images/palceholder.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="image_work">
+                        <div class="work_info">
+                            <h2>Duursamen</h2>
+                        </div>
                         <img src="images/palceholder.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="image_work">
+                        <div class="work_info">
+                            <h2>Duursamen</h2>
+                        </div>
                         <img src="images/palceholder.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="image_work">
+                        <div class="work_info">
+                            <h2>Duursamen</h2>
+                        </div>
                         <img src="images/palceholder.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="image_work">
+                        <div class="work_info">
+                            <h2>Duursamen</h2>
+                        </div>
                         <img src="images/palceholder.jpg" alt="">
                     </div>
                 </div>
@@ -189,6 +201,37 @@
             </div>    
         </div>
     </section>
+
+
+
+    <!-- start contact -->
+
+    <section class="section_blue" id="contact">
+      <div class="col-md-12 title_blue">
+          <h1>Contact</h1>
+          <hr>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <table class="infolines">
+            <tr>
+              <td> <i class="fa fa-envelope fa-lg"></i> </td><td>  <p class="col-md-6 col-sm-12">veritasmedia.nl@gmail.com</p> </td>
+            </tr>
+
+            <tr>
+              <td> <i class="fa fa-phone fa-lg"></i> </td><td>  <p class="col-md-6 col-sm-12">0649985869</p> </td>
+            </tr>
+          </table>
+          <!-- GOOGLE MAPS CODE  -->
+          <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCdyADQsUYJXcNQXJybhqUrFGUDAWyg1zE'></script><div style='overflow:hidden;height:400px;width:500px;'><div id='gmap_canvas' style='height:400px;width:500px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://maps-generator.com/de'>google maps in homepage einbinden</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=3da73db36e0b1138d5f657f1ac21eefcfae5e6c5'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(52.393022093443314,4.853156619018573),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(52.393022093443314,4.853156619018573)});infowindow = new google.maps.InfoWindow({content:'<strong>Veritas media</strong><br>Contactweg 36<br> Amsterdam<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+          <!-- END GOOGLE MAPS CODE  -->
+        </div>
+      </div>
+
+
+    </section>
+    <!-- end contact -->
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
