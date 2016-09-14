@@ -18,9 +18,10 @@
 
 .navbar-brand {
   color: black !important;
-  &:hover {
-    cursor: pointer;
-  }
+}
+
+.hoverpointer:hover {
+  cursor: pointer;
 }
 
 .nav li a {
