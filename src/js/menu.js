@@ -8,7 +8,7 @@ $(document).ready(function(){
 
     if (y > z) {
         //this triggers if you scroll past header
-        menu.removeClass('opbg').addClass('fullbg').addClass('blackborder');
+        menu.removeClass('opbg').addClass('fullbg');
         // alert("awdawd");
     }
     else{
@@ -29,7 +29,7 @@ $(document).ready(function(){
   scrollToElement("#aboutlink","#about");
   scrollToElement("#logolink","#header");
   //scrollToElement("#whatwedolink","#");
-  //scrollToElement("#contactlink","#");
+  scrollToElement("#contactlink","#contact");
 
 
 
