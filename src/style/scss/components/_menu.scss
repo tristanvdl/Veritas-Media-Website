@@ -4,5 +4,53 @@
   top: 0px;
   left: 0px;
   width: 100%;
-  color: black;
+  border-radius: 0px;
+  background-color: transparent;
+  border: 0;
+  z-index: 10;
+  padding: 3px;
+}
+
+@media screen and (min-width: 767px) {
+  .logo {
+    content: url("../images/logo2.png");
+  }
+}
+
+.navbar-brand {
+  color: black !important;
+}
+
+.nav li a {
+  color: black !important;
+}
+
+.logo {
+  height: 50px;
+  margin-top: -15px;
+}
+
+.navbar-toggle {
+  background-color: white;
+  border: 1px solid black !important;
+  span {
+    border: 1px solid black !important;
+  }
+}
+
+.navbar-collapse {
+  border-top: 0px;
+  ul {
+    border-top: 0px;
+  }
+}
+
+.ontop {
+  position: fixed;
+  top:0px;
+  left: 0px;
+  width: 100%;
+  height: 57px;
+  background-color: white;
+  opacity: 0.5;
 }
