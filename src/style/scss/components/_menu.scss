@@ -54,3 +54,20 @@
   background-color: white;
   opacity: 0.5;
 }
+
+@media screen and (max-width: 767px) {
+  .ontop {
+    opacity:0;
+  }
+  .navbar {
+    background-color: white;
+  }
+}
+
+.fullbg {
+  opacity: 1;
+}
+
+.opbg {
+  opacity: 0.5;
+}
