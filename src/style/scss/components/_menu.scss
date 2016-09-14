@@ -8,8 +8,15 @@
   border: 0;
   z-index: 10;
   padding: 3px;
+  font-family: "h1-font";
+  font-size: 2em;
+
 }
 
+.menu {
+    margin-top: 7px;
+    margin-right: 15px;
+}
 @media screen and (min-width: 767px) {
   .logo {
     content: url("../images/logo2.png");
@@ -29,7 +36,7 @@
 }
 
 .logo {
-  height: 50px;
+  height: 62px;
   margin-top: -15px;
 }
 
@@ -53,8 +60,9 @@
   top:0px;
   left: 0px;
   width: 100%;
-  height: 57px;
+  height: 70px;
   z-index: 10;
+       border-bottom: 1px solid #E2E2E2;
   @include opacity-fade(.35s);
 }
 
@@ -67,10 +75,6 @@
   }
 }
 
-
-//both classes below are for
-//changing opacity of the menu depending on scroll position
-
 .fullbg {
   opacity: 1;
   background-color: white;
@@ -78,7 +82,7 @@
 }
 
 .opbg {
-  opacity: 0.5;
+  opacity: 0.6    ;
   background-color: white;
 }
 
