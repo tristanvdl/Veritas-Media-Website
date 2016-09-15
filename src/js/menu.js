@@ -37,7 +37,7 @@ $(document).ready(function(){
     function scrollToElement(link,dest){
         $(link).click(function() {
             $('html, body').animate({
-                scrollTop: $(dest).offset().top - 70
+                scrollTop: $(dest).offset().top - 50
             }, 750);
         });
     }
