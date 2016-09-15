@@ -2,6 +2,7 @@ $(document).ready(function(){
 
     var menu = $('.ontop');
 
+
     $(window).scroll(function () {
         var y = $(this).scrollTop();
         var z = $('.portfolio_trigger').offset().top - 72;

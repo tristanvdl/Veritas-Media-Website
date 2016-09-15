@@ -14,3 +14,89 @@
         }
     }
 }
+
+// card bullshit below this point
+$stripe-properties: to bottom, 15%, blue, white;
+@mixin hover-color($color){
+  &:hover{
+    color: $color
+  }
+}
+
+@mixin transition($time){
+  transition: $time;
+  -webkit-transition: $time;
+  -moz-transition: $time;
+  -o-transition: $time;
+}
+
+@mixin transform-style($style){
+  transform-style:$style;
+  -moz-transform-style:$style;
+  -o-transform-style:$style;
+  -ms-transform-style:$style;
+  -webkit-transform-style:$style;
+}
+
+@mixin backface-visibility($visibility: hidden) {
+  backface-visibility: $visibility;
+  -webkit-backface-visibility: $visibility;
+  -mox-backface-visibility: $visibility;
+  -ms-backface-visibility: $visibility;
+  -o-backface-visibility: $visibility;
+}
+
+@mixin transform($transformation) {
+  transform: $transformation;
+  -webkit-transform: $transformation;
+  -moz-transform: $transformation;
+  -ms-transform: $transformation;
+  -o-transform: $transformation;
+}
+
+
+//Add your own mixins here
+
+.notecard {
+  @include transform-style(preserve-3d);
+  @include transition(0.4s);
+  font-family: Roboto, sans-serif;
+
+  &:hover{
+    @include transform
+      (rotatey(-180deg));
+  }
+
+  .front, .back {
+    @include backface-visibility;
+  }
+
+  .front {
+  z-index: 3;
+  font-size: 20px;
+
+    .word {
+      display: block;
+      text-align: center;
+      position: relative;
+      top: 40%;
+      @include hover-color(red);
+    }
+  }
+
+
+  .back {
+      text-align: center;
+  z-index: 1;
+  word-wrap: break-word;
+  line-height: 1.6;
+  margin-top: -120%;
+    @include transform(rotatey(-180deg));
+  }
+
+  h2 {
+      font-size: 1.5em;
+      font-family: h2-font;
+  }
+
+}
