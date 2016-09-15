@@ -29,6 +29,7 @@ $(document).ready(function(){
         setClass('.portfolio_trigger','.what_trigger','.portfolio_item');
         setClass('.what_trigger','.about_trigger','.what_item');
         setClass('.about_trigger','.contact_trigger','.about_item');
+        setClass('.contact_trigger','.footer_trigger','.contact_item');
 
     });
 
