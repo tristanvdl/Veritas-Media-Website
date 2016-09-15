@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
     var menu = $('.ontop');
+    var topbutton = $('.backtotop');
 
 
     $(window).scroll(function () {
@@ -9,9 +10,11 @@ $(document).ready(function(){
 
         if (y > z) {
             menu.removeClass('opbg').addClass('fullbg');
+            topbutton.removeClass('transparant').addClass('visible');
         }
         else{
             menu.removeClass('fullbg').addClass('opbg');
+            topbutton.removeClass('visible').addClass('transparant');
         }
 
         function setClass(trigger, trigger2, menuitem) {
@@ -48,6 +51,7 @@ $(document).ready(function(){
     scrollToElement("#logolink","#header");
     scrollToElement("#whatwedolink","#what");
     scrollToElement("#contactlink","#contact");
+    scrollToElement("#backtotoplink","#header");
 
 
 
