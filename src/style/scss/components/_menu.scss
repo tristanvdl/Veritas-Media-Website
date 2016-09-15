@@ -15,7 +15,13 @@
 .menu {
     margin-top: 7px;
     margin-right: 15px;
+    .active_link {
+        color: #6FCFCA!important;
+    }
 }
+
+
+
 @media screen and (min-width: 767px) {
   .logo {
     content: url("../images/logo2.png");
@@ -61,7 +67,6 @@
   width: 100%;
   height: 70px;
   z-index: 10;
-       border-bottom: 1px solid #E2E2E2;
   @include opacity-fade(.35s);
 }
 
