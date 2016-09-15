@@ -6,6 +6,12 @@ html, body {
 #header {
   height:100%;
   background-image: url("../images/headerbg.jpeg");
+    @media (max-width: 767px) {
+        & {
+            background-image: url("../images/headerbgmobile.jpeg");
+
+        }
+    }
   background-size:cover;
   text-align: center;
   display: table;
