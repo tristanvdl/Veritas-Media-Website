@@ -15,10 +15,29 @@
     }
 }
 
+.contitle {
+    margin-bottom: -30px;
+    margin-top: -50px;
+}
+
+.addresscell {
+    width: 275px;
+}
+
 .infolines tr td {
   padding: 3px;
 }
 
-.gm-style {
-  border-radius: 10px !important;
+.maps {
+    text-align: center;
+
+}
+
+.mapsdiv {
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
 }
