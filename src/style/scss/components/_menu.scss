@@ -10,7 +10,6 @@
   padding: 3px;
   font-family: "h1-font";
   font-size: 2em;
-
 }
 
 .menu {
@@ -67,11 +66,17 @@
 }
 
 @media screen and (max-width: 767px) {
-  .ontop {
-    opacity:0;
+   .opbg {
+       opacity: 0 !important;
+   }
+  .logo {
+      height: 50px;
   }
   .navbar {
-    background-color: white;
+    background-color: white !important;
+  }
+  .ontop {
+      height: 58px !important;
   }
 }
 

@@ -2,6 +2,11 @@ $(document).ready(function(){
 
   var menu = $('.ontop');
 
+
+    // if ($(window).width() < 767){
+    // 	menu.addClass('fullbg');
+    // }
+
   $(window).scroll(function () {
     var y = $(this).scrollTop();
     var z = $('.scrolltrigger').offset().top - 72;
@@ -25,7 +30,7 @@ $(document).ready(function(){
   scrollToElement("#portfoliolink", "#portfolio");
   scrollToElement("#aboutlink","#about");
   scrollToElement("#logolink","#header");
-  //scrollToElement("#whatwedolink","#");
+  scrollToElement("#whatwedolink","#whatwedo");
   scrollToElement("#contactlink","#contact");
 
 
