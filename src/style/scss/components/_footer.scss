@@ -2,8 +2,13 @@
     background-color: white;
     text-align: center;
     padding: 15px;
+    height: 130px;
+    width: 100%;
+    display: table;
 }
 
 .footerp {
-    display:inline;
+    display: table-cell;
+    vertical-align: middle;
+
 }

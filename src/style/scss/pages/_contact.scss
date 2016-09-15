@@ -1,11 +1,21 @@
-.infoline {
-  // width: 250px;
+.email {
+    margin-bottom: 20px;
 }
 
+.phone {
+    margin-bottom: 20px;
+    margin-left: 2px;
+}
+
+.adres {
+    margin-bottom: 20px;
+    margin-left: 6px;    
+}
 
 .infolines {
   margin: 0 auto;
-  width: 250px;
+  width: 350px;
+  font-size: 1.5em;
 }
 
 @media screen and (min-width: 990px) {
@@ -13,11 +23,6 @@
       width: 300px;
       margin: 0 auto;
     }
-}
-
-.contitle {
-    margin-bottom: -30px;
-    margin-top: -50px;
 }
 
 .addresscell {
@@ -30,14 +35,12 @@
 
 .maps {
     text-align: center;
-
+    width: 100%!important;
+    height: 400px;
+    padding-bottom: 30px;
 }
 
 .mapsdiv {
-    width: 350px;
-    height: 350px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 15px;
 }
