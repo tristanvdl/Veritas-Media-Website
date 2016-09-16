@@ -18,15 +18,17 @@
     .active_link {
         color: #6FCFCA!important;
     }
+
 }
 
 
 
-@media screen and (min-width: 767px) {
-  .logo {
-    content: url("../images/logo2.png");
-  }
-}
+
+// @media screen and (min-width: 767px) {
+//   .logo {
+//     content: url("../images/logo2.png");
+//   }
+// }
 
 .navbar-brand {
   color: black !important;
@@ -37,12 +39,11 @@
 }
 
 .nav li a {
-  color: black !important;
 }
 
 .logo {
-  height: 62px;
-  margin-top: -15px;
+  height: 55px;
+  margin-top: -12px;
 }
 
 .navbar-toggle {
@@ -98,4 +99,12 @@
 
 .nobg {
   background-color: transparent;
+}
+
+.blackfont {
+    color: black !important;
+}
+
+.grayfont {
+    color: #575756;
 }

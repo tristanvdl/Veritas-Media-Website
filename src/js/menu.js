@@ -2,6 +2,7 @@ $(document).ready(function(){
 
     var menu = $('.ontop');
     var topbutton = $('.backtotop');
+    var menufont = $('.nav li a');
 
 
     $(window).scroll(function () {
@@ -11,10 +12,12 @@ $(document).ready(function(){
         if (y > z) {
             menu.removeClass('opbg').addClass('fullbg');
             topbutton.removeClass('transparant').addClass('visible');
+            menufont.removeClass('blackfont').addClass('grayfont');
         }
         else{
             menu.removeClass('fullbg').addClass('opbg');
             topbutton.removeClass('visible').addClass('transparant');
+            menufont.removeClass('grayfont').addClass('blackfont');
         }
 
         function setClass(trigger, trigger2, menuitem) {
