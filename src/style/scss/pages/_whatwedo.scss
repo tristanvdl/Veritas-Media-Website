@@ -9,9 +9,11 @@
     }
     p {
         color: white;
-        text-align: center;
+        text-align: left;
         margin-bottom: 30px;
-        font-size: 1.3em;
+        font-size: 1.2em;
+        width: 70%;
+        margin: 0 auto;
     }
     img {
         width: 15%;
@@ -23,3 +25,7 @@
     .textwhat {
         font-size: 1.2em;
     }
+
+.secondrow {
+    margin-top: 3.5%;
+}
