@@ -3,24 +3,21 @@
     bottom: 15px;
     right: 15px;
     z-index: 1000;
+    //border: 1px solid black;
+    height: 25px;
+    padding: 6px;
 }
 
 .fa-sort-up {
-    padding: 5px !important;
-    color: black;
-    font-size: 1.8em;
-    margin-left: -1em;
-    border: 1px solid black;
-    border-radius: 0px;
-    line-height: 18px;
+    color: #252525;
+    font-size: 2.5em;
     @media screen and (max-width: 767px){
         & {
-            font-size: 1.9em;
+            // font-size: 3em;
         }
     }
     &:hover {
         color: #535353;
-        border: 1px solid #535353;
     }
 }
 
