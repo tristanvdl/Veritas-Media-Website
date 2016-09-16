@@ -5,16 +5,16 @@ html, body {
 /* header div selector */
 #header {
   height:100%;
-  background-image: url("../images/headerbg.jpeg");
+  background-image: url("../images/headerbg2.jpeg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-    @media (max-width: 767px) {
-        & {
-            background-image: url("../images/headerbgmobile.jpeg");
-
-        }
-    }
+    // @media (max-width: 767px) {
+    //     & {
+    //         background-image: url("../images/headerbgmobile.jpeg");
+    //
+    //     }
+    // }
   background-size:cover;
   text-align: center;
   display: table;
